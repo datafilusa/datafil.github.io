@@ -1,0 +1,444 @@
+
+body {
+  margin: 0;
+  overflow-x: hidden; /* This line prevents horizontal scrolling */
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.cubottom{ 
+  display:flex;
+  flex-direction: row;
+  color:rgb(8, 39, 80);
+  margin-left: 15%;
+  margin-right: 25%;
+}
+
+.cubottompicadd{
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.cubottompicimg{
+  width: 120%;
+}
+
+.cucontact{
+  margin-left: 30%;
+  font-weight: bold;
+  line-height: 2;
+  margin-top: -5%;
+}
+.culastlineaddress{
+  margin-left: 70px;
+
+}
+
+.cuquery{
+  margin-top: 300px;
+}
+
+.cufirstlineconnect2{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.culabel1{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cutextbox1 input {
+  width: 455px;
+  border-color: rgb(3, 22, 48);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 2px;
+  background: transparent;
+}
+
+.cuphoneemail{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.cuphone{
+  display: flex;
+  flex-direction: column;
+}
+
+.culabel2{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cutextbox2 input{
+  border-color: rgb(3, 22, 48);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 2px;
+  background: transparent;
+  width: 200px;
+}
+.cuemail{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.culabel3{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cutextbox3 input{
+  border-color: rgb(3, 22, 48);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 2px;
+  background: transparent;
+  width: 200px;
+}
+
+.cumessage{
+  margin-top: 20px;
+}
+
+.culabel4{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cutextbox4 input{
+  background: transparent;
+  width: 452px;
+  border: 2px solid rgb(5, 45, 102);
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+
+.cutextbox4 input::placeholder {
+  font-size: 16px; /* Adjust font size as needed */
+  text-align: start;
+  position: relative;
+
+}
+
+.cusend{
+  text-align: end;
+  margin-top: 5px;
+}
+
+.cusendbutton{
+  background:  rgb(15, 19, 77);
+  border: none;
+  cursor: pointer;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  margin-bottom: 100px;
+}
+
+.cusendbutton:hover{
+  background-color: white;
+  color: rgb(15, 19, 77);
+}
+
+.cusendbutton:active{
+  opacity: 0.5;
+}
+
+@media(max-width: 2000px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+  .cubottom{ 
+      margin-left: 10%;
+      margin-right: 20%;
+    }
+
+}
+
+@media(max-width: 1750px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+   .cubottom{ 
+    margin-left: -5%;
+    margin-right: 10%;
+  }
+
+  }
+
+  @media(max-width: 1300px){
+
+    html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+     }
+  
+     .cubottom{ 
+      margin-right: 5%;
+    }
+
+    .cucontact{
+      font-size: 90%;
+    }
+
+    }
+
+
+    @media(max-width: 1000px){
+
+      html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+       }
+
+       .cubottom{ 
+        flex-direction: column;
+        margin-left: 25%;
+      }
+
+      .cubottompicadd{
+        margin-left: -40%;
+      }
+
+    .cucontact{
+      font-size: 110%;
+    }
+
+    .cuquery{
+      display:none;
+    }
+
+      .cuquery23{
+        display: flex;
+        flex-direction: column;
+        color:rgb(8, 39, 80);
+        margin-left: 25%;
+       }
+
+
+      .cufirstlineconnect223{
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 30px;
+      }
+      
+      .culabel123{
+        font-size:25px;
+        font-weight: bold;
+      }
+      .cutextbox123 input{
+        width: 380px;
+        height: 30px;
+        font-size: 20px;
+      }
+      
+      .culabel223{
+        font-size:25px;
+        font-weight: bold;
+      }
+      
+      .cutextbox223 input{
+        width: 380px;
+        height: 30px;
+        font-size: 20px;
+      }
+      
+      .culabel323{
+        font-size:25px;
+        font-weight: bold;
+      }
+      
+      .cutextbox323 input{
+        width: 380px;
+        height: 30px;
+        font-size: 20px;
+      }
+      
+      .culabel423{
+        font-size:25px;
+        font-weight: bold;
+      }
+      
+      .cutextbox423 input{
+        width: 380px;
+        height: 30px;
+        font-size: 20px;
+      }
+      
+      .cusend23{
+        text-align: end;
+        margin-top: 5px;
+        width: 30px;
+        margin-left: 240px;
+     
+       
+      }
+      
+      .cusendbutton23{
+        background:  rgb(15, 19, 77);
+        border: none;
+        cursor: pointer;
+        color: white;
+        width: 150px;
+        height: 50px;
+        border-radius: 50px;
+        font-size: 30px;
+        align-items: end;
+        margin-bottom: 10px;
+    
+      }
+      
+      .cusendbutton23:hover{
+        background-color: white;
+        color: rgb(15, 19, 77);
+      }
+      
+      .cusendbutton23:active{
+        opacity: 0.5;
+      }
+    }
+  
+
+    @media(min-width: 1000px){
+
+      html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+
+      .cuquery23{
+        display:none;
+       }
+       
+      }
+      
+    
+
+  @media(max-width: 700px){
+
+    html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      }
+
+    .cucontact{
+      font-size: 100%;
+      margin-left: 25%;
+    }
+
+
+    .cuquery23{
+      margin-left: 25%;
+     }
+    
+     .cutextbox123 input{
+      width: 300px;
+      height: 30px;
+      font-size: 20px;
+    }
+
+    .cutextbox223 input{
+      width: 300px;
+      height: 30px;
+      font-size: 20px;
+    }
+
+    .cutextbox323 input{
+      width: 300px;
+      height: 30px;
+      font-size: 20px;
+    }
+
+    .cutextbox423 input{
+      width: 300px;
+      height: 30px;
+      font-size: 20px;
+    }
+
+    .cusend23{
+      text-align: end;
+      margin-top: 5px;
+      width: 30px;
+      margin-left: 160px;
+   
+     
+    }
+
+  }
+
+@media(max-width: 550px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+
+.cucontact{
+  font-size: 80%;
+  margin-left: 23%;
+  }
+  .cuquery23{
+    margin-left: 12%;
+    }
+
+}
+
+@media(max-width: 400px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+
+.cucontact{
+  font-size: 80%;
+  margin-left: 20%;
+}
+    .cuquery23{
+      margin-left: 9%;
+      }
+
+  }
+  
+
+
+
+
+  

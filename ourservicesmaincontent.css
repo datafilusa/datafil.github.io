@@ -1,0 +1,627 @@
+body {
+  margin: 0;
+  overflow-x: hidden; /* This line prevents horizontal scrolling */
+  font-family: 'Open Sans', sans-serif, Arial;
+}
+
+.coursematerial{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 100px;
+}
+
+.coursematerialimg{
+  width: 100%;
+}
+.coursematerialcontent{
+  color: rgb(8, 39, 80);
+  font-size: 160%;
+  margin-left: 100px;
+}
+.coursematerialhead{
+  color: rgb(202, 202, 10);
+  font-size: 250%;
+  font-weight: bold;
+}
+
+@media(max-width: 1650px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+  .coursematerialimg{
+    width: 90%;
+    margin-left: 10%;
+  }
+
+  .coursematerialcontent{
+  font-size: 130%;
+  }
+
+  .coursematerialhead{
+    color: rgb(202, 202, 10);
+    font-size: 230%;
+    font-weight: bold;
+  }
+}
+
+@media(max-width: 1500px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+   .coursematerialimg{
+    width: 90%;
+    margin-left: 2%;
+  }
+  }
+
+@media(max-width: 1250px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+
+  .coursematerialimg{
+    width: 50%;
+    margin-left: 2%;
+    }
+     
+  .coursematerialhead{
+    color: rgb(202, 202, 10);
+    font-size: 160%;
+    font-weight: bold;
+    }
+
+  .coursematerialcontent{
+    font-size: 120%;
+    margin-left: 50px;
+    }
+    }
+
+  @media(max-width: 1000px){
+
+    html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+
+    .coursematerialhead{
+      color: rgb(202, 202, 10);
+      font-size: 150%;
+      font-weight: bold;
+    }
+  
+    .coursematerialcontent{
+      font-size: 80%;
+      margin-left: 30px;
+    }
+    .coursematerialimg{
+      width: 45%;
+    }
+    }
+
+  @media(max-width: 600px){
+
+    html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      }
+
+    .coursematerialimg{
+      width: 80%;
+      }
+    .coursematerial{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 5%;
+      margin-right: 10%;
+      margin-top: 100px;
+      }
+      }
+
+.personalguidance{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 100px;
+}
+
+.personalguidancecontent{
+  color: rgb(8, 39, 80);
+  font-size: 160%;
+  }
+
+.personalguidancehead{
+  color: rgb(202, 202, 10);
+  font-size: 250%;
+  font-weight: bold;
+  }
+
+.personalguidanceimg{
+  width: 60%;
+  margin-left: 100px;
+  }
+
+  @media(max-width: 1650px){
+
+    html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      }
+      
+  
+      
+    .personalguidancecontent{
+      font-size: 130%;
+      margin-left: 10%;
+      }
+      
+    .personalguidancehead{
+      color: rgb(202, 202, 10);
+      font-size: 230%;
+      font-weight: bold;
+      }
+      }
+
+  @media(max-width: 1500px){
+
+    html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      }
+
+    .personalguidancecontent{
+      margin-left: 2%;
+      }
+      }
+
+  @media(max-width: 1250px){
+
+      html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        }
+      
+      
+           
+      .personalguidancehead{
+        color: rgb(202, 202, 10);
+        font-size: 160%;
+        font-weight: bold;
+        }
+      
+      .personalguidancecontent{
+        font-size: 120%;
+        }
+
+      .personalguidanceimg{
+        margin-left: 50px;
+        width: 50%;
+        }
+      }
+
+  @media(max-width: 1000px){
+
+    html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      }
+      
+    .personalguidancehead{
+      color: rgb(202, 202, 10);
+      font-size: 150%;
+      font-weight: bold;
+      }
+        
+    .personalguidancecontent{
+      font-size: 80%;
+      }
+
+    .personalguidanceimg{
+      margin-left: 30px;
+      width: 40%;
+      }
+      }
+
+  @media(max-width: 600px){
+
+    html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      }
+      
+    .personalguidanceimg{
+      width: 85%;
+      margin-left:-20px;
+      }
+    .personalguidance{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 70px;
+      }
+      }
+
+    .lodging{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 100px;
+      }
+            
+    .lodgingimg{
+       width: 90%;
+      }
+    .lodgingcontent{
+      color: rgb(8, 39, 80);
+      font-size: 160%;
+      margin-left: 100px;
+      }
+    .lodginghead{
+      color: rgb(202, 202, 10);
+      font-size: 250%;
+      font-weight: bold;
+      }
+  
+  @media(max-width: 1650px){
+
+    html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      }
+      
+    .lodgingimg{
+      width: 70%;
+      margin-left: 10%;
+     }
+      
+    .lodgingcontent{
+     font-size: 130%;
+    }
+      
+    .lodginghead{
+      color: rgb(202, 202, 10);
+      font-size: 230%;
+      font-weight: bold;
+     }
+    }
+  @media(max-width: 1500px){
+
+    html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      }
+    
+    .lodgingimg{
+      width: 90%;
+      margin-left: 2%;
+      }
+    }      
+@media(max-width: 1250px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+
+  .lodgingimg{
+    width: 70%;
+    margin-left: 2%;
+    }
+      
+  .lodginghead{
+    color: rgb(202, 202, 10);
+    font-size: 160%;
+    font-weight: bold;
+    }
+
+  .lodgingcontent{
+    font-size: 120%;
+    margin-left: 50px;
+    }
+    }
+
+  @media(max-width: 1000px){
+
+    html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+
+    .lodginghead{
+      color: rgb(202, 202, 10);
+      font-size: 150%;
+      font-weight: bold;
+    }
+  
+    .lodgingcontent{
+      font-size: 80%;
+      margin-left: 30px;
+    }
+    .lodgingimg{
+      width: 50%;
+    }
+    }
+@media(max-width: 600px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+
+  .lodgingimg{
+    width: 80%;
+    }
+  .lodging{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 100px;
+    }
+    }
+
+
+.travelopportunities{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 100px;
+}
+
+.travelopportunitiescontent{
+  color: rgb(8, 39, 80);
+  font-size: 160%;
+  }
+
+.travelopportunitieshead{
+  color: rgb(202, 202, 10);
+  font-size: 250%;
+  font-weight: bold;
+  }
+
+.travelopportunitiesimg{
+  width: 100%;
+  margin-left: 100px;
+  }
+
+
+@media(max-width: 1650px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+    
+
+    
+  .travelopportunitiescontent{
+    font-size: 130%;
+    margin-left: 10%;
+    }
+    
+  .travelopportunitieshead{
+    color: rgb(202, 202, 10);
+    font-size: 230%;
+    font-weight: bold;
+    }
+    }
+
+@media(max-width: 1500px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+
+  .travelopportunitiescontent{
+    margin-left: 2%;
+    }
+    }
+
+@media(max-width: 1250px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+  
+  
+        
+  .travelopportunitieshead{
+    color: rgb(202, 202, 10);
+    font-size: 160%;
+    font-weight: bold;
+    }
+  
+  .travelopportunitiescontent{
+    font-size: 120%;
+    }
+
+  .travelopportunitiesimg{
+    margin-left: 50px;
+    width: 55%;
+    }
+  }
+
+@media(max-width: 1000px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+    
+  .travelopportunitieshead{
+    color: rgb(202, 202, 10);
+    font-size: 150%;
+    font-weight: bold;
+    }
+      
+  .travelopportunitiescontent{
+    font-size: 80%;
+    }
+
+  .travelopportunitiesimg{
+    margin-left: 30px;
+    width: 50%;
+    }
+    }
+@media(max-width: 600px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+    
+  .travelopportunitiesimg{
+    width: 80%;
+    margin-left: -30px;
+    }
+  .travelopportunities{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 70px;
+    }
+    }
+
+  
+.oslastline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(8, 39, 80);
+  font-size: 250%;
+  margin-right: 20%;
+  margin-left: 20%;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.osquote{
+  color:rgb(202, 202, 10);
+}
+
+@media(max-width: 800px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+
+    .oslastline{
+      font-size: 150%;
+    }
+  }
+
+  @media(max-width: 600px){
+
+    html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      }
+  
+      .oslastline{
+        font-size: 100%;
+        margin-top: 60px;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+    }

@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  overflow-x: hidden; /* This line prevents horizontal scrolling */
+  font-family: 'Open Sans', sans-serif, Arial;
+}
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background: url(image/testimonial-background.jpg);
+  background: cover;
+  color: white;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.russel, .shivangi, .samir, .juan{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  width: 50%;
+}
+
+.russel{
+margin-left: 100px;
+}
+.russelimg{
+  margin-top: -205px;
+}
+
+.shivangi{
+  margin-left: -120px;
+  margin-top: 240px;
+
+}
+
+.shivangiimg{
+  margin-top: -122px;
+  width: 400px;
+}
+
+
+
+.samir{
+  margin-left: -100px;
+  margin-top: 172px;
+}
+
+.samirimg{
+  margin-top: -158px;
+  width: 440px;
+}
+
+.juan{
+  margin-right: 200px;
+  margin-left: -100px;
+  margin-top: 210px;
+
+}
+.juanimg{
+  width: 350px;
+  margin-top: -110px;
+}
+
+@media only screen and (max-width: 1500px) {
+
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+  .juan, .samir, .shivangi, .russel{
+    display: none;
+  }
+}
+
+@media (min-width: 1500px) {
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+  .testimonials2{
+    display:none; 
+  }
+}
+
+.testimonials2 {
+  background: url(image/testimonial-background.jpg);
+  color: white;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.firsttest{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.russel2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.russelp{
+  margin-top: 160px;
+}
+.russelimg2{
+  margin-top: -200px;
+}
+
+.shivangi2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.shivangip{
+  margin-top: 180px;
+}
+.shivangiimg2{
+  margin-top: -130px;
+  width:400px;
+}
+
+.secondtest{
+  display: flex;
+  flex-direction: row;
+  margin-top: -150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.samir2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.samirimg2{
+  margin-top: -160px;
+  width: 440px;
+}
+
+.juan2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+}
+
+
+.juanimg2{
+  width: 350px;
+  margin-top: -100px;
+}
+
+@media(max-width:900px){
+  
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+   .testimonials2{
+    font-size: 90%;
+   }
+
+}
+
+@media only screen and (max-width: 800px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+  .juan2, .samir2, .shivangi2, .russel2{
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+  .testimonials3{
+    display:none; 
+  }
+}
+
+.testimonials3 {
+  background: url(image/testimonial-background.jpg);
+  color: white;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.testimonials780{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 120%;
+}
+
+.russel3{
+  margin-top: 90px;
+}
+
+.russelimg3{
+  margin-top: -250px;
+  width: 600px;
+  margin-left: -20px;
+}
+
+.shivangi3{
+  margin-top: -180px;
+}
+
+.shivangiimg3{
+  margin-top: -150px;
+  margin-left: 30px;
+
+}
+
+.samir3{
+  margin-top: -180px;
+}
+
+.samirimg3{
+  margin-top: -180px;
+  margin-left: 30px;
+  width: 550px;
+
+}
+
+.juan3{
+  margin-top: -150px;
+}
+
+.juanimg3{
+  margin-top: -135px;
+  margin-left: 50px;
+  width: 450px;
+
+}
+
+@media(max-width:550px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+  .testimonials780{
+    font-size: 90%;
+}
+}

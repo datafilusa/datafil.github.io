@@ -1,0 +1,486 @@
+
+body {
+  margin: 0;
+  overflow-x: hidden; /* This line prevents horizontal scrolling */
+  font-family: 'Open Sans', sans-serif, Arial;
+}
+
+.contactuscontent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+  color: rgb(12, 12, 85);
+}
+
+.nepalcontact{
+display:flex;
+}
+.nepalflag{
+  width: 95px;
+  margin-top: 5px;
+}
+
+.nepalcontactinfo{
+margin-top: 30px;
+margin-left: -20px;
+}
+
+
+.indiacontact{
+  display:flex;
+}
+.indiaflag{
+  width: 80px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.indiacontactinfo{
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+
+.philippinescontact{
+  display:flex;
+}
+
+.philippinesflag{
+  width: 80px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.philippinecontactinfo{
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.usacontact{
+  display:flex;
+  
+}
+.usaflag{
+  width: 80px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.usacontactinfo{
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+@media(max-width: 1300px){
+
+  
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+
+    .nepalflag{
+      width: 80px;
+      margin-top: 5px;
+    }
+    
+    .nepalcontactinfo{
+    margin-top: 30px;
+    margin-left: -20px;
+    font-size: 80%;
+    }
+    
+    
+  
+    .indiaflag{
+      width: 70px;
+      height: 40px;
+      margin-left: 20px;
+      margin-top: 25px;
+    }
+    
+    .indiacontactinfo{
+      margin-top: 25px;
+      margin-left: 10px;
+      font-size: 80%;
+    }
+    
+    
+    
+    .philippinesflag{
+      width: 70px;
+      height: 40px;
+      margin-left: 20px;
+      margin-top: 25px;
+    }
+    
+    .philippinecontactinfo{
+      margin-top: 25px;
+      margin-left: 10px;
+      font-size: 80%;
+    }
+    
+
+    .usaflag{
+      width: 70px;
+      height: 40px;
+      margin-left: 20px;
+      margin-top: 25px;
+    }
+    
+    .usacontactinfo{
+      margin-top: 25px;
+      margin-left: 10px;
+      font-size: 80%;
+    }
+}
+
+
+@media(max-width: 1000px){
+
+  
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+
+    .nepalflag{
+      width: 60px;
+      margin-top: 5px;
+    }
+    
+    .nepalcontactinfo{
+    margin-top: 30px;
+    margin-left: -10px;
+    font-size: 70%;
+    }
+    
+    
+  
+    .indiaflag{
+      width: 50px;
+      height: 30px;
+      margin-left: 20px;
+      margin-top: 25px;
+    }
+    
+    .indiacontactinfo{
+      margin-top: 25px;
+      margin-left: 10px;
+      font-size: 70%;
+    }
+    
+    
+    
+    .philippinesflag{
+      width: 50px;
+      height: 30px;
+      margin-left: 20px;
+      margin-top: 25px;
+    }
+    
+    .philippinecontactinfo{
+      margin-top: 25px;
+      margin-left: 10px;
+      font-size: 70%;
+    }
+    
+
+    .usaflag{
+      width: 50px;
+      height: 30px;
+      margin-left: 20px;
+      margin-top: 25px;
+    }
+    
+    .usacontactinfo{
+      margin-top: 25px;
+      margin-left: 10px;
+      font-size: 70%;
+    }
+}
+
+@media(max-width: 900px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+  .contactuscontent{
+    display: none;
+  }
+
+  .contactuscontent2{
+
+    display: flex;
+    flex-direction: column;
+    color:rgb(12, 12, 85);
+
+  }
+
+
+  .nepalcontact2{
+    display:flex;
+    
+    }
+
+    .nepalflag2{
+      width: 120px;
+      margin-top: 5px;
+      margin-left: 22%;
+    }
+    
+    .nepalcontactinfo2{
+    margin-top: 40px;
+    margin-left: -20px;
+    font-size: 155%;
+    text-align: center;
+    }
+    
+    
+    .indiacontact2{
+      display:flex;
+    }
+    .indiaflag2{
+      width: 80px;
+      height: 50px;
+      margin-left: 25%;
+      margin-top: 25px;
+    
+    }
+    
+    .indiacontactinfo2{
+      margin-top: 25px;
+      margin-left: 10px;
+      font-size: 155%;
+      text-align: center;
+    }
+    
+    
+    .philippinescontact2{
+      display:flex;
+    }
+    
+    .philippinesflag2{
+      width: 80px;
+      height: 50px;
+      margin-left: 25%;
+      margin-top: 25px;
+    }
+    
+    .philippinecontactinfo2{
+      margin-top: 25px;
+      margin-left: 10px;
+      font-size: 155%;
+      text-align: center;
+    }
+    
+    .usacontact2{
+      display:flex;
+      
+    }
+    .usaflag2{
+      width: 80px;
+      height: 50px;
+      margin-left: 25%;
+      margin-top: 25px;
+    }
+    
+    .usacontactinfo2{
+      margin-top: 25px;
+      margin-left: 10px;
+      font-size: 155%;
+      text-align: center;
+    }
+}
+
+@media(min-width: 900px) {
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+.contactuscontent2{
+  display:none;
+}
+}
+
+
+
+@media(max-width: 740px) {
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+
+
+
+    .nepalflag2{
+      width: 100px;
+      height: 80px;
+      margin-top: 20px;
+      margin-left: 21%;
+    }
+    
+    .nepalcontactinfo2{
+    margin-top: 40px;
+    margin-left: -20px;
+    font-size: 110%;
+    text-align: center;
+    }
+    
+    
+   
+    .indiaflag2{
+      width: 55px;
+      height: 35px;
+      margin-left: 25%;
+      margin-top: 25px;
+    
+    }
+    
+    .indiacontactinfo2{
+      margin-top: 20px;
+      margin-left: 10px;
+      font-size: 110%;
+      text-align: center;
+    }
+    
+    
+  
+    
+    .philippinesflag2{
+      width: 55px;
+      height: 35px;
+      margin-left: 25%;
+      margin-top: 25px;
+    }
+    
+    .philippinecontactinfo2{
+      margin-top: 25px;
+      margin-left: 10px;
+      font-size: 110%;
+      text-align: center;
+    }
+    
+   
+    .usaflag2{
+      width: 55px;
+      height: 35px;
+      margin-left: 25%;
+      margin-top: 25px;
+    }
+    
+    .usacontactinfo2{
+      margin-top: 25px;
+      margin-left: 10px;
+      font-size: 110%;
+      text-align: center;
+    }
+  
+
+  }
+
+  @media(max-width: 500px) {
+
+    html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+     }
+  
+  
+      .nepalflag2{
+        width: 100px;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 10%;
+      }
+      
+      .nepalcontactinfo2{
+      margin-top: 40px;
+      margin-left: -20px;
+      font-size: 100%;
+      text-align: center;
+      }
+      
+      
+     
+      .indiaflag2{
+        width: 55px;
+        height: 35px;
+        margin-left: 16%;
+        margin-top: 25px;
+      
+      }
+      
+      .indiacontactinfo2{
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 100%;
+        text-align: center;
+      }
+      
+      
+    
+      
+      .philippinesflag2{
+        width: 55px;
+        height: 35px;
+        margin-left: 16%;
+        margin-top: 25px;
+      }
+      
+      .philippinecontactinfo2{
+        margin-top: 25px;
+        margin-left: 10px;
+        font-size: 100%;
+        text-align: center;
+      }
+      
+     
+      .usaflag2{
+        width: 55px;
+        height: 35px;
+        margin-left: 16%;
+        margin-top: 25px;
+      }
+      
+      .usacontactinfo2{
+        margin-top: 25px;
+        margin-left: 10px;
+        font-size: 100%;
+        text-align: center;
+      }
+    
+  
+    }

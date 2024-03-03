@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  overflow-x: hidden; /* This line prevents horizontal scrolling */
+  font-family: 'Open Sans', sans-serif, Arial;
+}
+
+.headera {
+  position: relative;
+}
+
+
+
+.datafillogoa{
+  position: absolute;
+  top: -200px;
+  left: 3%;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.datafillogoimga{
+width: 500px;
+}
+
+
+.buttonsa{
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  left: 45%;
+}
+
+.buttonsa button {
+  margin-right: 5%; /* Adjust the value as needed to set the desired space */
+  background-color: transparent;
+  border:none;
+  cursor: pointer;
+  color: rgb(8, 39, 80);
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+ 
+
+
+@media only screen and (max-width: 600px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+
+  .datafillogoimg1a{
+    width: 250px;
+    margin-top: 100px;
+    margin-left: -30px;
+    z-index: 3;
+
+    }
+  
+    .datafillogoimga{
+      display: none;
+    }
+  }
+  
+
+
+@media (min-width: 600px){
+
+  .datafillogoimg1a{
+    display: none;
+  }
+}
+
+
+
+
+
