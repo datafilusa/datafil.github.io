@@ -1,0 +1,577 @@
+body {
+  margin: 0;
+  overflow-x: hidden; /* This line prevents horizontal scrolling */
+  font-family: 'Open Sans', sans-serif, Arial;
+}
+
+.homeconnect{
+  background: url(image/laptopbackground.jpg);
+  background: cover;
+  color:rgb(8, 39, 80);
+  padding-bottom: 30px;
+}
+
+.mainrow{
+  display: flex;
+  flex-direction: row;
+  align-items:start;
+  margin-left: 30%;
+  margin-right: 20%;
+}
+
+.connectinfo{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.connectpara{
+  font-weight: bold;
+  font-size: 20px;
+}
+.firstlineconnect{
+  font-weight: bold;
+  font-size: 30px;
+
+}
+
+.homeconnectsm{
+  margin-top: 20px;
+}
+
+.fbiconimg{
+  width: 50px;
+}
+
+.igiconimg{
+  width: 50px;
+  margin-left: 20px;
+}
+
+.xiconimg{
+  width: 50px;
+  margin-left: 20px;
+}
+
+.homecontact{
+  margin-top: 50px;
+  font-weight: bold;
+  line-height: 2;
+}
+.lastlineaddress{
+  margin-left: 70px;
+}
+.query{
+  margin-left: 200px;
+  margin-top: 300px;
+}
+
+.firstlineconnect2{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.label1{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.textbox1 input {
+  width: 455px;
+  border-color: rgb(3, 22, 48);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 2px;
+  background: transparent;
+}
+
+.phoneemail{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.phone{
+  display: flex;
+  flex-direction: column;
+}
+
+.label2{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.textbox2 input{
+  border-color: rgb(3, 22, 48);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 2px;
+  background: transparent;
+  width: 200px;
+}
+.email{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.label3{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.textbox3 input{
+  border-color: rgb(3, 22, 48);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 2px;
+  background: transparent;
+  width: 200px;
+}
+
+.message{
+  margin-top: 20px;
+}
+
+.label4{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.textbox4 input{
+  background: transparent;
+  width: 452px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  border: 2px solid rgb(5, 45, 102);
+}
+
+.textbox4 input::placeholder {
+  font-size: 16px; /* Adjust font size as needed */
+  text-align: start;
+  position: relative;
+}
+
+.send{
+  text-align: end;
+  margin-top: 5px;
+}
+
+.sendbutton{
+  background: rgb(15, 19, 77);
+  border: none;
+  cursor: pointer;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.sendbutton:hover{
+  background-color: white;
+  color:rgb(15, 19, 77);
+}
+
+.sendbutton:active{
+  opacity: 0.5;
+}
+@media(max-width:2000px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+  .mainrow{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media (max-width: 1750px) {
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+  .mainrow{
+    display: none;
+  }
+
+
+  .mainrow2{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    margin-left: 10%;
+  }
+  
+  .connectinfo2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .connectpara2{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .firstlineconnect2{
+    font-weight: bold;
+    font-size: 30px;
+  
+  }
+  
+  .homeconnectsm2{
+    margin-top: 20px;
+  }
+  
+  .fbiconimg2{
+    width: 50px;
+  }
+  
+  .igiconimg2{
+    width: 50px;
+    margin-left: 20px;
+  }
+  
+  .xiconimg2{
+    width: 50px;
+    margin-left: 20px;
+  }
+  
+  .homecontact2{
+    margin-top: 50px;
+    font-weight: bold;
+    line-height: 2;
+  }
+  .lastlineaddress2{
+    margin-left: 70px;
+  }
+  .query2{
+    margin-left: 200px;
+    margin-top: 300px;
+  }
+  
+  .firstlineconnect22{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .label12{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .textbox12 input {
+    width: 455px;
+    border-color: rgb(3, 22, 48);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 2px;
+    background: transparent;
+  }
+  
+  .phoneemail2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  .phone2{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label22{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .textbox22 input{
+    border-color: rgb(3, 22, 48);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 2px;
+    background: transparent;
+    width: 200px;
+  }
+  .email2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  
+  .label32{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .textbox32 input{
+    border-color: rgb(3, 22, 48);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 2px;
+    background: transparent;
+    width: 200px;
+  }
+  
+  .message2{
+    margin-top: 20px;
+  }
+  
+  .label42{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .textbox42 input{
+    background: transparent;
+    width: 452px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    border: 2px solid rgb(5, 45, 102);
+  }
+  
+  .textbox42 input::placeholder {
+    font-size: 16px; /* Adjust font size as needed */
+    text-align: start;
+    position: relative;
+  }
+  
+  .send2{
+    text-align: end;
+    margin-top: 5px;
+  }
+  
+  .sendbutton2{
+    background: rgb(15, 19, 77);
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+  }
+  
+  .sendbutton2:hover{
+    background-color: white;
+    color:rgb(15, 19, 77);
+  }
+  
+  .sendbutton2:active{
+    opacity: 0.5;
+  }
+}
+
+@media (min-width: 1750px) {
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+  .mainrow2{
+    display: none;
+  }
+}
+
+
+
+
+@media (max-width: 1180px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+.mainrow2{
+  display:none;
+}
+
+.mainrow23{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+
+.connectinfo23{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.connectpara23{
+  font-weight: bold;
+  font-size: 110%;
+  margin-left: 25px;
+  margin-left: 12%;
+
+}
+.firstlineconnect23{
+  font-weight: bold;
+  font-size: 150%;
+  margin-left: 5%;
+
+}
+
+.homeconnectsm23{
+  margin-top: 20px;
+  margin-left: 25%;
+}
+
+.fbiconimg23{
+  width: 50px;
+}
+
+.igiconimg23{
+  width: 50px;
+  margin-left: 20px;
+}
+
+.xiconimg23{
+  width: 50px;
+  margin-left: 20px;
+}
+
+.homecontact23{
+  margin-top: 50px;
+  font-weight: bold;
+  line-height: 2;
+  font-size: 100%;
+  margin-left: 10px;
+}
+
+.emailhome{
+  margin-left: 70px;
+}
+.phonehome{
+  margin-left: 80px;
+}
+.lastlineaddress23{
+  margin-left: 70px;
+}
+
+.query23{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+
+}
+.firstlineconnect223{
+  font-size: 150%;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.label123{
+  font-size:25px;
+  font-weight: bold;
+}
+.textbox123 input{
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.label223{
+  font-size:25px;
+  font-weight: bold;
+}
+
+.textbox223 input{
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.label323{
+  font-size:25px;
+  font-weight: bold;
+}
+
+.textbox323 input{
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.label423{
+  font-size:25px;
+  font-weight: bold;
+}
+
+.textbox423 input{
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.send23{
+  text-align: end;
+  margin-top: 5px;
+ 
+}
+
+.sendbutton23{
+  background: rgb(15, 19, 77);
+  border: none;
+  cursor: pointer;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 25px;
+}
+
+.sendbutton23:hover{
+  background-color: white;
+  color:rgb(15, 19, 77);
+}
+
+.sendbutton23:active{
+  opacity: 0.5;
+}
+
+}
+
+@media (min-width: 1180px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+  .mainrow23{
+    display:none;
+  }
+  }
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+

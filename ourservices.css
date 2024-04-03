@@ -1,0 +1,594 @@
+body {
+  margin: 0;
+  overflow-x: hidden; /* This line prevents horizontal scrolling */
+  font-family: 'Open Sans', sans-serif, Arial;
+}
+
+
+.osfirstpart{
+  position: relative;
+}
+
+.oscover{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.oscoverimg{
+  position: relative;
+  width: 100%;
+}
+
+.ostitle{
+  color:white;
+  font-size:800%;
+  font-weight: bold;
+  position: absolute;
+}
+
+@media( max-width: 1850px){
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+.ostitle{  font-size: 500%;
+}
+
+}
+
+@media( max-width: 1200px){
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+  .ostitle{  font-size: 400%;
+  }
+  
+  }
+
+  @media( max-width: 950px){
+    html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+     }
+
+    .ostitle{  font-size: 250%;
+    }
+    
+    }
+
+    
+  @media( max-width: 780px){
+    html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+     }
+
+    .ostitle{  font-size: 200%;
+    }
+    
+    }
+
+  .unilogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .olfu{    
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+  }
+  .olfulogoimg{
+    margin-top: -100px;
+    width: 100%;
+    z-index: 4;
+  } 
+
+  .olfutext{
+    background: rgb(8, 39, 80);
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+    margin-top: -34px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    z-index: 2;
+  }
+
+  .ama{    
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    margin-left: 100px;
+  }
+  .amalogoimg{
+    margin-top: -100px;
+    z-index: 4;
+    width: 95%;
+  }
+
+  .amatext{
+    background: rgb(8, 39, 80);
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+    margin-top: -30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    z-index: 2;
+  }
+
+  .eac{    
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    margin-left: 100px;
+  }
+
+  .eaclogoimg{
+    margin-top: -100px;
+    z-index: 4;
+    width: 100%;
+  }
+
+  .eactext{
+    background: rgb(8, 39, 80);
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+    margin-top: -30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    z-index: 2;
+  }
+
+ .perpetual{
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  margin-left: 100px;
+ }
+
+ .perpetuallogoimg{
+  margin-top:-120px;
+  z-index:4;
+  width: 300px;
+ }
+
+
+ .perpetualtext{
+  background: rgb(8, 39, 80);
+  color: white;
+  font-weight: bold;
+  font-size: 120%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  margin-top: -49px;
+ }
+
+ @media(max-width: 1800px){
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+  .perpetuallogoimg{
+    margin-top:-120px;
+    z-index:4;
+    width: 280px;
+   }
+   .perpetualtext{
+    display:none;
+   }
+   .perpetualtext1{
+    background: rgb(8, 39, 80);
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    margin-top: -49px;
+   }
+ }
+
+ @media(min-width: 1800px){
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+  .perpetualtext1{
+    display:none;
+  }
+  
+ }
+
+ @Media(max-width: 1470px){
+  .perpetuallogoimg{
+    margin-top:-120px;
+    z-index:4;
+    width: 230px;
+   }
+ }
+
+ @media ( min-width:1200px) {
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+  .unilogoa1{
+    display: none;
+  }
+  .unilogoa2{
+    display:none;
+  }
+ }
+
+ @media(max-width: 1200px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+  .unilogo{
+    display: none;
+  }
+
+  .unilogoa1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .olfua1{
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+  }
+
+  .olfulogoimga1{
+    margin-top: -100px;
+    width: 100%;
+    z-index: 4;
+  } 
+
+  .olfutexta1{
+    background: rgb(8, 39, 80);
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+    margin-top: -34px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    z-index: 2;
+  }
+
+  .amaa1{    
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    margin-left: 100px;
+  }
+  .amalogoimga1{
+    margin-top: -100px;
+    z-index: 4;
+    width: 95%;
+  }
+
+  .amatexta1{
+    background: rgb(8, 39, 80);
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+    margin-top: -30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    z-index: 2;
+  }
+
+  .unilogoa2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  .eaca2{    
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    margin-left: 20px;
+  }
+  .eaclogoimga2{
+    z-index: 4;
+    width: 95%;
+  }
+
+  .eactexta2{
+    background: rgb(8, 39, 80);
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+    margin-top: -30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    z-index: 2;
+  }
+
+  .perpetual2{
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    margin-left: 100px;
+  }
+
+  .perpetuallogoimga2{
+    z-index: 4;
+    width: 300px;
+    margin-top: -28px;
+  }
+
+  .perpetualtexta2{
+    background: rgb(8, 39, 80);
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+    margin-top: -51px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    z-index: 2;
+  }
+ }
+
+ @media(min-width: 600px){
+
+  
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+  .unilogob1{
+    display:none;
+  }
+ }
+
+ @media( max-width: 700px){
+
+  
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+  .unilogoa1{
+    display:none;
+  }
+
+  .unilogoa2{
+    display: none;
+  }
+
+  .unilogob1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 200px;
+
+  }
+
+
+  .olfub1{    
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    margin-top: -260px;
+  }
+  .olfulogoimgb1{
+    width: 40%;
+    z-index: 4;
+    margin-left: 30%;
+  } 
+
+  .olfutextb1{
+    background: rgb(8, 39, 80);
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    margin-top: -34px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    width: 50%;
+    z-index: 2;
+    margin-left: 25%;
+  }
+
+  .amab1{    
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    margin-top: 100px;
+  }
+  .amalogoimgb1{
+    width: 40%;
+    z-index: 4;
+    margin-left: 30%;
+  }
+
+  .amatextb1{
+    background: rgb(8, 39, 80);
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    margin-top: -34px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    width: 50%;
+    z-index: 2;
+    margin-left: 25%;
+  }
+
+  .eacb1{    
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    margin-top: 100px;
+  }
+
+  .eaclogoimgb1{
+    width: 40%;
+    z-index: 4;
+    margin-left: 30%;
+  }
+
+  .eactextb1{
+    background: rgb(8, 39, 80);
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    margin-top: -34px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    width: 50%;
+    z-index: 2;
+    margin-left: 25%;
+  }
+
+ .perpetualb1{
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  margin-top: 100px;
+ }
+
+ .perpetuallogoimgb1{
+  z-index:4;
+  width: 300px;
+  margin-left: 25%;
+ }
+
+
+ .perpetualtextb1{
+  background: rgb(8, 39, 80);
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    margin-top: -34px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    width: 50%;
+    z-index: 2;
+    margin-left: 26%;
+ }
+ }
+
+ @media (max-width: 560px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+   .perpetuallogoimgb1{
+    z-index:4;
+    width: 300px;
+    margin-left: 20%;
+   }
+   .ostitle{
+    color:white;
+    font-size:120%;
+    font-weight: bold;
+    position: absolute;
+  }
+ }
+
+ @media (max-width: 450px){
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+   .perpetuallogoimgb1{
+    z-index:4;
+    width: 200px;
+    margin-left: 25%;
+   }
+
+ 
+ }
